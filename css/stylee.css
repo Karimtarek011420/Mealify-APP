@@ -1,0 +1,186 @@
+header {
+  background-image: url("../img/gallery/meal-7.jpg");
+  background-size: 100% 100%;
+}
+#home {
+  background-color: #eeeeee;
+}
+header nav {
+  background-color: rgba(100, 100, 100, 0.7);
+}
+.nav-item a {
+  position: relative;
+}
+.nav-item a.active::after {
+  content: "";
+  background-color: brown;
+  width: 50px;
+  height: 3px;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.nav-item a::after {
+  content: "";
+  background-color: brown;
+  width: 0px;
+  height: 3px;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: all 1s;
+}
+.nav-item a:hover::after {
+  content: "";
+  background-color: brown;
+  width: 50px;
+  height: 3px;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.allicon:hover p {
+  color: red;
+}
+.google-map {
+  padding-bottom: 50%;
+  position: relative;
+}
+
+.google-map iframe {
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  position: absolute;
+}
+.gallaryMeal{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top:110%;
+  right: 0;
+  left: 0;
+  transition: all 1s;
+}
+.gallaryAllmael:hover .gallaryMeal {
+  top: 0%;
+}
+.gallaryMeal{
+  background-color:rgba(0, 0, 0, 0.5)
+}
+/* .imgContent:hover img {
+    transform: scale(1.1);
+} */
+#gallary{
+  background-color: #EEEEEE;
+}
+.textChef{
+    color: black;
+  font-family: "Amatic SC", sans-serif, "Inter", sans-serif;
+}
+.textChef p ,h3{
+    font-size: 3rem;
+}
+@media screen and (max-width: 991px) {
+
+  .allicon {
+    margin-top: 8px;
+  }
+  .aitm {
+    flex-direction: column;
+  }
+  .nav-item a::after {
+    content: "";
+    background-color: brown;
+    width: 0px;
+    height: 3px;
+    position: absolute;
+    top: 100%;
+    left: 20px;
+    transform: translate(-50%, -50%);
+  }
+  .nav-item a:hover::after {
+    content: "";
+    background-color: brown;
+    width: 50px;
+    height: 3px;
+    position: absolute;
+    top: 100%;
+    left: 20px;
+    transform: translate(-50%, -50%);
+  }
+  .nav-item a.active::after {
+    content: "";
+    background-color: brown;
+    width: 50px;
+    height: 3px;
+    position: absolute;
+    top: 100%;
+    left: 20px;
+    transform: translate(-50%, -50%);
+  }
+}
+.addressHeader h1 {
+  color: #37373f;
+  font-family: "Amatic SC", sans-serif, "Inter", sans-serif;
+  font-size: 6rem;
+}
+.addressHeader p {
+  color: black;
+  font-family: "Amatic SC", sans-serif, "Inter", sans-serif;
+  font-size: 2rem;
+}
+.allicon:hover {
+  color: red;
+}
+textarea{
+  resize: none;
+}
+.footer{
+  background-image: url('../img/team-shape.svg') url(../img/textured-metal-background.jpg);
+  background-size: 100% 100%;
+}
+.footer img{
+  width: 100px;
+}
+.form-control:focus{
+  outline: none !important;
+  box-shadow: 0 0 0 0 !important;
+  border:1px solid red !important;
+}
+.icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid red;
+}
+.imgContent img {
+  filter: drop-shadow(10px 10px 20px black);
+}
+.iconChrf{
+  position: absolute;
+  top: 40px;
+  right:-40px;
+  width: 30px;
+  background-color: aliceblue;
+  transition: all 1s;
+}
+.iconfather:hover .iconChrf{
+  right:20px;
+}
+.iconfather:hover{
+  transform: scale(1.1);
+}
+.iconContant{
+  background-color: red   ;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+input:focus{
+
+}
